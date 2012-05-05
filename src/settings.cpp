@@ -674,8 +674,8 @@ NcmpcppConfig::NcmpcppConfig()
 	ncmpcpp_directory = GetHomeDirectory() + "ncmpcpp/";
 	lyrics_directory = ncmpcpp_directory + "lyrics/";
 #	else
-	ncmpcpp_directory = GetHomeDirectory() + ".ncmpcpp/";
-	lyrics_directory = GetHomeDirectory() + ".lyrics/";
+	ncmpcpp_directory = GetHomeDirectory() + ".config/ncmpcpp/";
+	lyrics_directory = GetHomeDirectory() + ".local/share/lyrics/";
 #	endif // WIN32
 	config_file_path = ncmpcpp_directory + "config";
 }
